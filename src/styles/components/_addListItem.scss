@@ -1,0 +1,16 @@
+.formArea {
+    width: 100%;
+}
+
+.input-text {
+    font-family: arial;
+    font-size: $font-size-m;    
+    margin-bottom: $m-size;
+    padding: $m-size;
+    width: 100%;
+}
+
+.errorMsg {
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: $blue;
+}
+
+body {
+    font-family: 'Oswald', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.btn {
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+}

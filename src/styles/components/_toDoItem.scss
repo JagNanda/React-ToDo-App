@@ -1,0 +1,24 @@
+.todo {
+    background: darken($blue, 5%);
+    padding: $m-size $l-size;
+    word-break: break-all;
+    border-bottom: 0.2rem solid lighten($blue, 5%);
+    font-size: $font-size-m;
+}
+
+.itemName {
+    margin-right: auto;
+}
+
+.todo-complete {
+    background: rgba(255,255,255,0.1);
+    color: gray;
+    word-break: break-all;
+    border-bottom: 0.3rem solid lighten($blue, 10%);
+}
+
+.todo--start-msg {
+    font-size: $font-size-m;
+    padding: $xl-size 0;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+
+.header {
+    padding: 2rem 0rem;
+    margin-bottom: $m-size;
+    background-color: darken($color: $blue, $amount: 6)
+}
+
+.header__title {
+    font-size: 4rem;
+    margin: 0rem;
+    background-image: -webkit-linear-gradient(top left, $pink, $orange);
+    background-image: -linear-gradient(top left, $pink, $orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

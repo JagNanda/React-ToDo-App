@@ -1,0 +1,16 @@
+.listContainer {
+    color: white;   
+    margin-bottom: $l-size;    
+}
+
+    .listContainer--Header {
+        align-items: center;
+        background-color: darken($blue, 10%);
+        display: flex;
+        justify-content: space-between;
+        padding: $m-size;
+    }
+
+        .listContainer--Header-title {
+            font-size: $font-size-l;
+        }

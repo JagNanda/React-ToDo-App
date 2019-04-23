@@ -1,0 +1,40 @@
+.big-btn {
+    background-image: -webkit-linear-gradient(top left, $pink, $orange);
+    color: white;
+    padding: $m-size;
+    font-size: $font-size-xl;
+    font-weight: bold;
+    margin-bottom: $l-size;
+    border:none;
+    width: 100%;
+} 
+
+.big-btn:hover {
+    background-image: -webkit-linear-gradient(top left, $orange, $pink);
+}
+
+.btnRemoveAll {
+    border-image: linear-gradient(to right, $pink 0%, $orange 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: transparent;
+    background-image: -webkit-linear-gradient(top left, $pink, $orange);
+    background-image: -linear-gradient(top left, $pink, $orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: $m-size;
+    font-weight: 700;
+    height: 5.8rem;
+}
+
+.btn--link {
+    border: none;
+    color: white;
+    background: none;
+    padding: none;
+    margin-left: $s-size;
+    font-size: $font-size-s;
+}
+
+
